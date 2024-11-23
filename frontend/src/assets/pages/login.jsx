@@ -57,9 +57,11 @@ export const Login = () => {
     };
 
     return (
-        <div className="flex h-screen bg-gray-100">
+        <div className=" h-screen bg-gray-100 grid md:grid-cols-2">
             {/* Left Side */}
-            <div className="w-1/2 flex flex-col justify-center items-center bg-purple-400 text-white p-10">
+            {/* Left Side */}
+<div className="flex-1 flex flex-col justify-center items-center bg-purple-400 text-white p-5">
+
                 <h1 className="text-3xl font-bold mb-4">Manager Login</h1>
                 <p className="text-center max-w-lg mb-6">
                     Assume there is only one manager account for the time being as the project is under construction. And only manager can create accounts for the employees. Then the employees can login with those credentials.
@@ -73,8 +75,10 @@ export const Login = () => {
             </div>
 
             {/* Right Side */}
-            <div className="w-1/2 flex items-center justify-center px-8">
-                <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg">
+           {/* Right Side */}
+<div className="flex-1 flex items-center justify-center">
+
+                <div className="w-full max-w-md bg-white p-8 rounded-lg shadow-lg m-5">
                     <img
                         src="Bingo_logo.svg"
                         alt="Bingo Logo"

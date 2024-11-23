@@ -26,19 +26,19 @@ export const NavBar = () => {
                             <li className="flex flex-wrap">
                                 <Link to="/manager" className="flex items-center gap-4">
                                     <img src="dashboard.svg" className="w-5" alt="Dashboard Icon" />
-                                    <span className="hidden sm:inline ml-2">Dashboard</span> {/* Hide text on small screens */}
+                                    <span className="hidden md:inline ml-2">Dashboard</span> {/* Hide text on small screens */}
                                 </Link>
                             </li>
                             <li className="flex flex-wrap">
                                 <Link to="/manager/Projects" className="flex items-center gap-4">
                                     <img src="project.svg" className="w-5" alt="Projects Icon" />
-                                    <span className="hidden sm:inline ml-2">Projects</span>
+                                    <span className="hidden md:inline ml-2">Projects</span>
                                 </Link>
                             </li>
                             <li className="flex flex-wrap">
                                 <Link to="/manager/Employees" className="flex items-center gap-4">
                                     <img src="employees.svg" className="w-5" alt="Employees Icon" />
-                                    <span className="hidden sm:inline ml-2">Employees</span>
+                                    <span className="hidden md:inline ml-2">Employees</span>
                                 </Link>
                             </li>
                         </>
